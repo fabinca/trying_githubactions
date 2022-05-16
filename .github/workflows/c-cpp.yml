@@ -19,3 +19,5 @@ jobs:
       run: make
     - name: make test
       run: make test
+    - name: memcheck
+      run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg  && sudo apt-get install valgrind  && make memcheck
