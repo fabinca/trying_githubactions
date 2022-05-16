@@ -1,0 +1,21 @@
+name: C CI mac
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: norm
+      run: python3 -m pip install norminette && make norm
+    - name: make
+      run: make
+    - name: make test
+      run: make test
