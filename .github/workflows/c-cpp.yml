@@ -22,4 +22,4 @@ jobs:
     - name: preparing valgrind
       run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg  && sudo apt-get install valgrind
     - name: memcheck
-      run: valgrind ./philo 4 410 200 200 1 2>&1 | grep "definitely lost" | tee | awk '{print $4}'
+      run: bash ./memcheck.sh
