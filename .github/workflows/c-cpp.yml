@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: C CI linux
 
 on:
   push:
@@ -20,4 +20,4 @@ jobs:
     - name: make test
       run: make test
     - name: memcheck
-      run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg  && sudo apt-get install valgrind  && make memcheck
+      run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg  && sudo apt-get install valgrind  && export LOST=$(valgrind ./philo 4 410 200 200 1 2>&1 | grep "definitely lost" | awk '{print $4}' ) && (( $(LOST) > 0 )) || { exit 1; }
