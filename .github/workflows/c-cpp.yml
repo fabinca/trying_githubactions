@@ -18,6 +18,6 @@ jobs:
     - name: make
       run: make
     - name: installing valgrind and timeout
-      run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg valgrind timeout coreutils
+      run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg valgrind coreutils timeout
     - name: memcheck
       run: bash ./memcheck.sh
