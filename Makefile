@@ -11,13 +11,7 @@
 # **************************************************************************** #
 
 SRC_DIR = src
-SRC	= 	$(SRC_DIR)/main.c \
-		$(SRC_DIR)/free.c \
-		$(SRC_DIR)/time.c \
-		$(SRC_DIR)/philo.c \
-		$(SRC_DIR)/philo_action.c \
-		$(SRC_DIR)/ft_atoi.c \
-		$(SRC_DIR)/ft_str_is_numeric.c
+SRC	= 	$(SRC_DIR)/main.c
 		
 OBJ_DIR = obj
 OBJ	= $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRC))
@@ -44,6 +38,9 @@ fclean: clean
 	$(RM) $(NAME)
 
 re: fclean all
+
+test : $(NAME)
+	./$(NAME) test
 
 threadcheck	: $(OBJ)
 	$(CC) $(OBJ) -lpthread -fsanitize=thread -g -o $(NAME)
