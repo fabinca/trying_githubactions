@@ -23,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v3
     - name: installing valgrind and timeout
       run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg valgrind coreutils
     - name: memcheck
