@@ -17,8 +17,6 @@ jobs:
       run: python3 -m pip install norminette && make norm
     - name: make
       run: make
-    - name: make test
-      run: make test
     - name: installing valgrind and timeout
       run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg valgrind timeout coreutils
     - name: memcheck
