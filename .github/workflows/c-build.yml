@@ -1,4 +1,4 @@
-name: C CI linux
+name: C buiild
 
 on:
   push:
@@ -17,6 +17,12 @@ jobs:
       run: python3 -m pip install norminette && make norm
     - name: make
       run: make
+  
+  memcheck:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
     - name: installing valgrind and timeout
       run: sudo apt-get install autotools-dev debhelper dpatch gdb libc6-dev gcc-multilib libc6-dbg valgrind coreutils
     - name: memcheck
