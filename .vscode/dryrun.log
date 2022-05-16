@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ouzgmordhya/42/ghactions'
+make: Leaving directory '/home/ouzgmordhya/42/ghactions'
+ 
+make: *** No rule to make target 'obj/main.o', needed by 'philo'.
+
