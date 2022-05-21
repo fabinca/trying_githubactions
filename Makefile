@@ -6,7 +6,7 @@
 #    By: cfabian <cfabian@student.42wolfsburg.de>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/03 14:57:03 by cfabian           #+#    #+#              #
-#    Updated: 2022/05/02 09:58:07 by cfabian          ###   ########.fr        #
+#    Updated: 2022/05/16 20:52:31 by cfabian          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -47,8 +47,7 @@ threadcheck	: $(OBJ)
 	./philo 4 410 200 200 3
 
 memcheck: all
-	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./philo
-	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./philo 4 410 200 200 1
+	lost = valgrind ./philo 4 410 200 200 1 2>&1 | grep "definitely lost" | awk '{print $4}' 
 
 norm:
 	norminette $(SRC) $(INCL)

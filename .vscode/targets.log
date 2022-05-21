@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'obj/main.o', needed by 'philo'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'obj/main.o', needed by 'philo'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 16 14:40:41 2022
+# Make data base, printed on Sat May 21 13:36:50 2022
 
 # Variables
 
@@ -36,8 +34,6 @@ XDG_SESSION_TYPE = x11
 VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -51,13 +47,13 @@ CURDIR := /home/ouzgmordhya/42/ghactions
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/96
+SNAP_DATA = /var/snap/code/97
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:47687
+JOURNAL_STREAM = 8:49550
 # makefile (from 'Makefile', line 18)
 CFLAGS = -Wall -Werror -Wextra
 # environment
@@ -71,7 +67,7 @@ MAKEFILE_LIST :=  Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+IM_CONFIG_PHASE = 1
 # environment
 USERNAME = ouzgmordhya
 # makefile (from 'Makefile', line 16)
@@ -85,7 +81,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1367
+MANAGERPID = 1362
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -93,7 +89,7 @@ LC_NAME = fr_FR.UTF-8
 # environment
 VSCODE_CWD = /home/ouzgmordhya/42/ghactions
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -101,15 +97,15 @@ PATH = /home/ouzgmordhya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/us
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/ouzgmordhya-ThinkPad-T440:@/tmp/.ICE-unix/1646,unix/ouzgmordhya-ThinkPad-T440:/tmp/.ICE-unix/1646
+SESSION_MANAGER = local/ouzgmordhya-ThinkPad-T440:@/tmp/.ICE-unix/1633,unix/ouzgmordhya-ThinkPad-T440:/tmp/.ICE-unix/1633
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/ouzgmordhya/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/96
+SNAP = /snap/code/97
 # environment
-SNAP_VERSION = da15b6fd
+SNAP_VERSION = c3511e6c
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -119,9 +115,9 @@ DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = b45a7088d4d44a9d857b0c481e47d60c
+INVOCATION_ID = f082847371f7491a89db8a6ce7f3fe82
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -130,8 +126,6 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3094
 # automatic
 %F = $(notdir $%)
 # environment
@@ -145,7 +139,7 @@ PWD = /home/ouzgmordhya/42/ghactions
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1609
+SSH_AGENT_PID = 1596
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # makefile (from 'Makefile', line 13)
@@ -161,7 +155,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/ouzgmordhya/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+VSCODE_CODE_CACHE_PATH = /home/ouzgmordhya/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LOGNAME = ouzgmordhya
 # environment
@@ -195,7 +189,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/ouzgmordhya/snap/code/96
+SNAP_USER_DATA = /home/ouzgmordhya/snap/code/97
 # environment
 SHLVL = 1
 # makefile (from 'Makefile', line 19)
@@ -203,13 +197,13 @@ CC = gcc
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ae04499f-04b2-48c4-b84d-d60096fda19a.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-6d206e5d-f921-47c5-b4aa-d3c44c9f0b5d.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
 USER = ouzgmordhya
 # environment
-SNAP_REVISION = 96
+SNAP_REVISION = 97
 # environment
 LC_MONETARY = fr_FR.UTF-8
 # makefile
@@ -225,15 +219,13 @@ LC_TELEPHONE = fr_FR.UTF-8
 # default
 MAKE_COMMAND := make
 # environment
-OLDPWD = /home/ouzgmordhya/42
+OLDPWD = /home/ouzgmordhya/42/rank_3-minishell-philo
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-092e2fcb-1.67.1-main.sock
-# environment
-BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+VSCODE_IPC_HOOK = /run/user/1000/vscode-092e2fcb-1.67.2-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -269,22 +261,22 @@ LC_ALL = C
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/5af4cc53_5c69_4965_af14_29882790ec32
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b005210e_32d5_4e80_ba27_a1f695900e9d
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.2473
+GNOME_TERMINAL_SERVICE = :1.125
 # default
 SUFFIXES := 
 # environment
 SNAP_REEXEC = 
- 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
 WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+ 
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # default
@@ -296,9 +288,9 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 3139
+VSCODE_PID = 6660
 # variable set hash-table stats:
-# Load=142/1024=14%, Rehash=0, Collisions=37/184=20%
+# Load=139/1024=14%, Rehash=0, Collisions=35/181=19%
 
 # Pattern-specific Variable Values
 
@@ -306,10 +298,10 @@ VSCODE_PID = 3139
 
 # Directories
 
-# . (device 2053, inode 28576714): 7 files, no impossibilities.
-# src (device 0, inode 0): No files, 1 impossibilities.
+# . (device 2053, inode 28576714): 12 files, no impossibilities.
+# src (device 2053, inode 28579274): 3 files, no impossibilities so far.
 
-# 7 files, 1 impossibilities in 2 directories.
+# 15 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -326,12 +318,14 @@ all: philo
 #  Command line target.
 #  Implicit rule search has not been done.
 #  File does not exist.
-#  File has not been updated.
+#  File has been updated.
+#  Successfully updated.
 
 philo: obj/main.o
 #  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
+#  Last modified 2022-05-16 22:13:04.86900233
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 32):
 	$(CC) $(OBJ) -lpthread -g -o $(NAME)
 
@@ -346,19 +340,21 @@ memcheck: all
 #  File does not exist.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 50):
-	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./philo
-	valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes ./philo 4 410 200 200 1
+	lost = valgrind ./philo 4 410 200 200 1 2>&1 | grep "definitely lost" | awk '{print $4}' 
 
-# Not a target:
-obj/main.o:
+obj/main.o: src/main.c obj
 #  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2022-05-16 22:13:04.817002291
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 25):
+	@$(CC) $(CFLAGS) -g -c $< -o $@
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-16 14:40:10.126471781
+#  Last modified 2022-05-16 20:52:31.026125685
 #  File has been updated.
 #  Successfully updated.
 
@@ -392,10 +388,18 @@ fclean: clean
 #  recipe to execute (from 'Makefile', line 38):
 	$(RM) $(NAME)
 
+# Not a target:
+src/main.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-16 22:13:00.036998686
+#  File has been updated.
+#  Successfully updated.
+
 obj:
 #  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+#  Last modified 2022-05-16 22:13:04.813002288
+#  File has been updated.
+#  Successfully updated.
 #  recipe to execute (from 'Makefile', line 28):
 	@mkdir -p $(OBJ_DIR)
 	
@@ -405,7 +409,7 @@ norm:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 54):
+#  recipe to execute (from 'Makefile', line 53):
 	norminette $(SRC) $(INCL)
 
 # Not a target:
@@ -429,19 +433,19 @@ clean:
 	rm -rf $(OBJ_DIR)
 
 # files hash-table stats:
-# Load=16/1024=2%, Rehash=0, Collisions=0/46=0%
+# Load=17/1024=2%, Rehash=0, Collisions=0/50=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 29 / storage = 218 B / avg = 7 B
-# current buf: size = 8162 B / used = 218 B / count = 29 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 31 / storage = 236 B / avg = 7 B
+# current buf: size = 8162 B / used = 236 B / count = 31 / avg = 7 B
 
-# strcache performance: lookups = 61 / hit rate = 52%
+# strcache performance: lookups = 71 / hit rate = 56%
 # hash-table stats:
-# Load=29/8192=0%, Rehash=0, Collisions=1/61=2%
-# Finished Make data base on Mon May 16 14:40:41 2022
+# Load=31/8192=0%, Rehash=0, Collisions=2/71=3%
+# Finished Make data base on Sat May 21 13:36:50 2022
 
  
