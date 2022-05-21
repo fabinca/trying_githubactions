@@ -1,6 +1,7 @@
 make --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/ouzgmordhya/42/ghactions'
+mkdir -p obj
+gcc -Wall -Werror -Wextra -g -c src/main.c -o obj/main.o
+gcc  obj/main.o -lpthread -g -o philo
 make: Leaving directory '/home/ouzgmordhya/42/ghactions'
  
-make: *** No rule to make target 'obj/main.o', needed by 'philo'.
-
